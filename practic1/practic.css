@@ -1,0 +1,238 @@
+#list1 .p{
+	text-align: justify;
+}
+.listpage{
+	box-sizing:border-box;
+	width: 700px; height: auto;
+	border: 1px solid black;
+	margin: 20px auto;
+	padding: 20px;
+}
+.listpage h2{
+	margin:0;
+}
+p.link2{
+	margin: 10px 0px;
+	text-align: right;
+	padding-right: 20px;
+}
+#list1 a:link, #list1 a:visited{
+	color: blue;
+	text-decoration: none;
+}
+#list1 a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#list2{
+	margin-top: 50px;
+}
+#list2 .p{
+	text-align: justify;
+	font: 13px/27px Arial;
+}
+#list2 a:link, #list2 a:visited{
+	color: blue;
+	text-decoration: none;
+}
+#list2 a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.list2pic{
+	border: 1px solid black;
+	float: left;
+	margin: 7px 10px 0px 0px;
+}
+#list3{
+	width: 730px; height: auto;
+	border: 1px solid black;
+	margin: 40px auto;
+	padding:0px 20px;
+	box-sizing:border-box;
+}
+#list3 h1, #list3 h2{
+	text-align: center;
+}
+#list3 h2 a:link, #list3 h2 a:visited{
+	color: #E74594;
+	text-decoration: none;
+}
+#list3 h2 a:hover{
+	color: black;
+	text-decoration: underline;
+}
+#list3 p{
+	text-align: justify;
+	font: 13px/27px Arial;
+	text-indent: 50px;
+}
+#list3 .textlink:link, #list3 .textlink:visited{
+	color: green;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#list3 .textlink:hover{
+	color: red;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+#list3 .link2{
+	text-align: right;
+	padding-right: 20px;
+}
+#list3 .link2 a:link,#list3 .link2 a:visited{
+	color:#E74594;
+	text-decoration: none;
+	font-weight: bolder;
+	padding:5px 10px;
+}
+#list3 .link2 a:hover{
+	color:white;
+	text-decoration: none;
+	font-weight: bolder;
+	background-color:#E74594;
+	padding:5px 10px;
+	border-radius: 5px;
+}
+#list4{
+	width: 700px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin: 0px auto;
+}
+#list4menu ul{
+	padding: 0px;
+	margin: 0px;
+	background-color: #484848;
+}
+#list4menu li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+#list4 #list4menu a{
+	display: block;
+	font: bold 13px arial;
+	line-height: 30px;
+	padding: 0px 5px;
+}
+#list4 #list4menu a:link, #list4 #list4menu a:visited{
+color: white;
+background-color: #484848;	
+text-decoration: none;
+}
+#list4 #list4menu a:hover{
+color: #484848;
+background-color: white;	
+text-decoration: none;
+}
+#list4 h1{
+	text-align: center;
+}
+#list4 p{
+	font: 17px/20px Times New Roman;
+	text-align:justify;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 10px;
+}
+#list4 .textlink:link, #list4 .textlink:visited{
+	color: blue;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#list4 .textlink:hover{
+	color: green;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+#list5{
+	width: 700px;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin: 50px auto 0px auto;
+}
+#list5menu ul{
+	padding: 0px;
+	margin: 0px;
+	background-color: #484848;
+}
+#list5menu li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+#list5 #list5menu a{
+	display: block;
+	font: bold 13px arial;
+	line-height: 30px;
+	padding: 0px 5px;
+}
+#list5 #list5menu a:link, #list5 #list5menu a:visited{
+color: white;
+background-color: #484848;	
+text-decoration: none;
+}
+#list5 #list5menu a:hover, #list5 #list5menu a.active{
+color: #484848;
+background-color: white;	
+text-decoration: none;
+}
+#list5 h1{
+	text-align: center;
+}
+#list5 p{
+	font: 17px/20px Times New Roman;
+	text-align:justify;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 10px;
+}
+#list5 .textlink:link, #list5 .textlink:visited{
+	color: black;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+#list5 .textlink:hover{
+	color: black;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#footer{
+	margin-top: 20px;
+    font: 13px Arial;
+    text-align: center;
+}
+#list6{
+	box-sizing: border-box;
+	width: 730px;
+	color: green;
+	margin: 50px auto;
+    border: 2px dashed green;
+    border-radius: 15px;
+}
+#list6 h1, #list6 h2{
+	text-align: center;
+}
+#list6 p{
+	padding: 0px 10px;
+	text-align: right;
+	font: 15px/20px Arial;
+}
+#list6 h2 a:link, #list6 h2 a:visited{
+	color: green;
+	text-decoration: underline;
+}
+#list6 h2 a:hover{
+	color: black;
+	text-decoration: none;
+}
+#list6 .textlink:link, #list6 .textlink:visited{
+	color: green;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+#list6 .textlink:hover{
+	color: green;
+	text-decoration: none;
+	font-weight: bolder;
+}
